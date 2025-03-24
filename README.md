@@ -31,13 +31,17 @@
      </br>
 </p>
 
+
+https://github.com/user-attachments/assets/eff137b0-359c-4e93-8e69-39ac62792a5b
+
+
 ## 📑 Open-source Plan
 - [x] Project Page
 - [x] Paper
 - [ ] Inference code
 - [ ] Checkpoints of Diffportrait360
 - [ ] Checkpoints of Back-View Generation Module
-- [ ] Interenet collected inference Data (self-collected from [Pexels](https://www.pexels.com/) which is used in [Diffportrait3D](https://github.com/FreedomGu/DiffPortrait3D))
+- [ ] Internet collected inference Data (self-collected from [Pexels](https://www.pexels.com/) which is used in [Diffportrait3D](https://github.com/FreedomGu/DiffPortrait3D))
 - [ ] Gradio Demo
 
 -----
@@ -62,26 +66,18 @@ We employs a frozen pre-trained Latent Diffusion Model (LDM) as a rendering back
 ## 📈 Results
 ### Comparison
 To evaluate the dynamics texture generation performance of X-Dyna in human video animation, we compare the generation results of Diffportrait360 with PanoHead, SphereHead, Unique3D.
-<table class="center">
-<td><video src="./assets//Comparsion1.mp4" width="90%"></td>
-</table>
-
+https://github.com/user-attachments/assets/dfab4cf4-2f14-413b-b0a6-689a2ba40ccb
 
 
 
 
 ### Ablation on Dual Appearance Module
-<table align="center">
-<td><video src="./assets//dual.mp4" width="90%"></td>
-</table>
 
+https://github.com/user-attachments/assets/db20a7f2-bee0-4cdb-acbb-c6f1d81c5e45
 
 ### Ablation on View Consistency
 
-<table align="center">
-<td><video src="./assets//Ablation_seq.mp4" width="90%"></td>
-</table>
-
+https://github.com/user-attachments/assets/f497ef9e-1ea0-46ae-851b-dce42d597c51
 
 ## 🎥 More Demos
 
