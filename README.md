@@ -14,7 +14,7 @@
     ·  
       <a href="https://www.linkedin.com/in/adilbek-karmanov?originalSubdomain=ae">Adilbek Karmanov</a><sup>2</sup>
     ·  
-      <a href="https://zhangchenxu528.github.io/">Hao Li</a><sup>2,5</sup>
+      <a href="https://hao-li.com">Hao Li</a><sup>2,5</sup>
     <br>
     <sup>1</sup>Unviersity of Southern California &nbsp;<sup>2</sup>MBZUAI &nbsp; <sup>3</sup>ByteDance Inc. &nbsp; 
     <br>
@@ -62,32 +62,16 @@ We employs a frozen pre-trained Latent Diffusion Model (LDM) as a rendering back
 ## 📈 Results
 ### Comparison
 To evaluate the dynamics texture generation performance of X-Dyna in human video animation, we compare the generation results of Diffportrait360 with PanoHead, SphereHead, Unique3D.
-<table class="center">
-<td><video src="./assets//Comparsion1.mp4" width="90%"></td>
-</table>
-
-
-
 
 
 ### Ablation on Dual Appearance Module
-<table align="center">
-<td><video src="./assets//dual.mp4" width="90%"></td>
-</table>
+
 
 
 ### Ablation on View Consistency
 
-<table align="center">
-<td><video src="./assets//Ablation_seq.mp4" width="90%"></td>
-</table>
 
 
-## 🎥 More Demos
-
-<table align="center">
-<td><video src="./assets//Teaser_video.mp4" width="90%"></td>
-</table>
 
 
 
@@ -113,7 +97,7 @@ Our code is distributed under the Apache-2.0 license.
 
 ## Acknowledgements
 
-We appreciate the contributions from [Diffportrait360](https://github.com/guoyww/AnimateDiff), [PanoHead](https://github.com/Boese0601/MagicDance), [SphereHead](https://github.com/tencent/MimicMotion), [ControlNet](https://arxiv.org/abs/2302.05543) for their open-sourced research. We thank Egor Zakharov, Zhenhui Lin, Maksat Kengeskanov, and Yiming Chen for the early discussions, helpful suggestions, and feedback.
+We appreciate the contributions from [Diffportrait360](https://github.com/FreedomGu/DiffPortrait3D), [PanoHead](https://github.com/SizheAn/PanoHead), [SphereHead](https://lhyfst.github.io/spherehead/), [ControlNet](https://github.com/lllyasviel/ControlNet) for their open-sourced research. We thank Egor Zakharov, Zhenhui Lin, Maksat Kengeskanov, and Yiming Chen for the early discussions, helpful suggestions, and feedback.
 
 
 
