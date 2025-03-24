@@ -66,10 +66,8 @@ We employs a frozen pre-trained Latent Diffusion Model (LDM) as a rendering back
 ## 📈 Results
 ### Comparison
 To evaluate the dynamics texture generation performance of X-Dyna in human video animation, we compare the generation results of Diffportrait360 with PanoHead, SphereHead, Unique3D.
+
 https://github.com/user-attachments/assets/dfab4cf4-2f14-413b-b0a6-689a2ba40ccb
-
-
-
 
 ### Ablation on Dual Appearance Module
 
