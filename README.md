@@ -54,7 +54,7 @@ We introduce a novel approach that generates fully consistent 360-degree head vi
 We employs a frozen pre-trained Latent Diffusion Model (LDM) as a rendering backbone and incorporates three auxiliary trainable modules for disentangled control of dual appearance R, camera control C, and U-Nets with view consistency {V}. Specifically, {R} extracts appearance information from {ref} and {back}}, and {C} derives the camera pose, which is rendered using an off-the-shelf 3D GAN. During training, we utilize a continuous sampling training strategy to better preserve the continuity of the camera trajectory. We enhance attention to continuity between frames to maintain the appearance information without changes due to turning angles. For inference, we employ our tailored back-view image generation network {F} to generate a back-view image, enabling us to generate a 360-degree full range of camera trajectories using a single image portrait. Note that $z$ stands for latent space noise rather than image. 
 
 <p align="center">
-  <img src="./assets/pipeline.png"  height=500>
+  <img src="./assets/pipeline.png"  height=400>
 </p>
 
 
@@ -62,16 +62,32 @@ We employs a frozen pre-trained Latent Diffusion Model (LDM) as a rendering back
 ## 📈 Results
 ### Comparison
 To evaluate the dynamics texture generation performance of X-Dyna in human video animation, we compare the generation results of Diffportrait360 with PanoHead, SphereHead, Unique3D.
+<table class="center">
+<td><video src="./assets//Comparsion1.mp4" width="90%"></td>
+</table>
+
+
+
 
 
 ### Ablation on Dual Appearance Module
-
+<table align="center">
+<td><video src="./assets//dual.mp4" width="90%"></td>
+</table>
 
 
 ### Ablation on View Consistency
 
+<table align="center">
+<td><video src="./assets//Ablation_seq.mp4" width="90%"></td>
+</table>
 
 
+## 🎥 More Demos
+
+<table align="center">
+<td><video src="./assets//Teaser_video.mp4" width="90%"></td>
+</table>
 
 
 
