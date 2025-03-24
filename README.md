@@ -99,7 +99,7 @@ Our code is distributed under the Apache-2.0 license.
 
 ## Acknowledgements
 
-We appreciate the contributions from [Diffportrait360](https://github.com/FreedomGu/DiffPortrait3D), [PanoHead](https://github.com/SizheAn/PanoHead), [SphereHead](https://lhyfst.github.io/spherehead/), [ControlNet](https://github.com/lllyasviel/ControlNet) for their open-sourced research. We thank [Egor Zakharov](https://egorzakharov.github.io/), [Zhenhui Lin](https://www.linkedin.com/in/zhenhui-lin-5b6510226/?originalSubdomain=ae), [Maksat Kengeskanov](https://www.linkedin.com/in/maksat-kengeskanov/%C2%A0/), and Yiming Chen for the early discussions, helpful suggestions, and feedback.
+This work is supported by the Metaverse Center Grant from the MBZUAI Research Office. We appreciate the contributions from [Diffportrait360](https://github.com/FreedomGu/DiffPortrait3D), [PanoHead](https://github.com/SizheAn/PanoHead), [SphereHead](https://lhyfst.github.io/spherehead/), [ControlNet](https://github.com/lllyasviel/ControlNet) for their open-sourced research. We thank [Egor Zakharov](https://egorzakharov.github.io/), [Zhenhui Lin](https://www.linkedin.com/in/zhenhui-lin-5b6510226/?originalSubdomain=ae), [Maksat Kengeskanov](https://www.linkedin.com/in/maksat-kengeskanov/%C2%A0/), and Yiming Chen for the early discussions, helpful suggestions, and feedback.
 
 
 
