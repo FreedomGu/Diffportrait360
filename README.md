@@ -77,14 +77,6 @@ https://github.com/user-attachments/assets/db20a7f2-bee0-4cdb-acbb-c6f1d81c5e45
 
 https://github.com/user-attachments/assets/f497ef9e-1ea0-46ae-851b-dce42d597c51
 
-## 🎥 More Demos
-
-<table align="center">
-<td><video src="./assets//Teaser_video.mp4" width="90%"></td>
-</table>
-
-
-
 
 
 ## 🔗 BibTeX
