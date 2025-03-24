@@ -78,9 +78,8 @@ https://github.com/user-attachments/assets/db20a7f2-bee0-4cdb-acbb-c6f1d81c5e45
 https://github.com/user-attachments/assets/f497ef9e-1ea0-46ae-851b-dce42d597c51
 
 
-
 ## 🔗 BibTeX
-If you find [Diffportrait360](https://arxiv.org/abs/2501.10021) is useful for your research and applications, please cite Diffportrait360 using this BibTeX:
+If you find [Diffportrait360](https://arxiv.org/abs/2503.15667) is useful for your research and applications, please cite Diffportrait360 using this BibTeX:
 
 ```BibTeX
 @article{gu2025diffportrait360,
