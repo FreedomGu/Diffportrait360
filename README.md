@@ -41,6 +41,7 @@ https://github.com/user-attachments/assets/eff137b0-359c-4e93-8e69-39ac62792a5b
 - [ ] Inference code
 - [ ] Checkpoints of Diffportrait360
 - [ ] Checkpoints of Back-View Generation Module
+- [ ] Training code
 - [ ] Internet collected inference Data (self-collected from [Pexels](https://www.pexels.com/) which is used in [Diffportrait3D](https://github.com/FreedomGu/DiffPortrait3D))
 - [ ] Gradio Demo
 
