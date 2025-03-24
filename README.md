@@ -1,6 +1,6 @@
 <p align="center">
 
-  <h2 align="center">[CVPR"25]DiffPortrait360: Consistent Portrait Diffusion for 360 View Synthesis</h2>
+  <h2 align="center">[CVPR'25]DiffPortrait360: Consistent Portrait Diffusion for 360 View Synthesis</h2>
   <p align="center">
       <a href="https://freedomgu.github.io/">Yuming Gu</a><sup>1,2</sup>
       ·
