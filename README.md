@@ -38,11 +38,11 @@ https://github.com/user-attachments/assets/eff137b0-359c-4e93-8e69-39ac62792a5b
 ## 📑 Open-source Plan
 - [x] Project Page
 - [x] Paper
-- [ ] Inference code
-- [ ] Checkpoints of Diffportrait360
-- [ ] Checkpoints of Back-View Generation Module
+- [x] Inference code
+- [x] Checkpoints of Diffportrait360
+- [x] Checkpoints of Back-View Generation Module
 - [ ] Training code
-- [ ] Internet collected inference Data (self-collected from [Pexels](https://www.pexels.com/) which is used in [Diffportrait3D](https://github.com/FreedomGu/DiffPortrait3D))
+- [x] Internet collected inference Data (self-collected from [Pexels](https://www.pexels.com/) which is used in [Diffportrait3D](https://github.com/FreedomGu/DiffPortrait3D))
 - [ ] Gradio Demo
 
 -----
@@ -77,6 +77,57 @@ https://github.com/user-attachments/assets/db20a7f2-bee0-4cdb-acbb-c6f1d81c5e45
 ### Ablation on View Consistency
 
 https://github.com/user-attachments/assets/f497ef9e-1ea0-46ae-851b-dce42d597c51
+
+## 📜 Requirements
+* An NVIDIA GPU with CUDA support is required. 
+  * We have tested on a single A6000 GPU.
+  * In our experiment, we used CUDA 12.2.
+  * **Minimum**: The minimum GPU memory required is 30GB for generating a single NVS flat video of 32 frames.
+  * **Recommended**: We recommend using a GPU with 80GB of memory.
+* Operating system: Linux
+
+## 🛠️ Dependencies and Installation
+
+Clone the repository:
+```shell
+git clone https://github.com/FreedomGu/Diffportrait360
+cd diffportrait360_release
+```
+
+### Installation Guide
+
+We provide an `env.yml` file for setting up the environment.
+
+Run the following command on your terminal:
+```shell
+conda env create -f env.yml
+
+conda activate diffportrait360
+```
+
+## 🧱 Download Pretrained Models
+Download the models through this [HF link](https://huggingface.co/gym890/diffportrait360/tree/main).
+
+Change following three model paths (PANO_HEAD_MODEL, Head_Back_MODEL, Diff360_MODEL) to your own download path at ```inference.sh```.
+
+
+## Inference
+We provide some examples of preprocessed portrait images thought this [script](https://github.com/SizheAn/PanoHead/blob/main/3DDFA_V2_cropping/cropping_guide.md). If you would like to try on your own data, please put your own data under /input_image folder and get ```dataset.json```(camera information under panohead coordinate system) follow with [this folder](https://github.com/SizheAn/PanoHead/tree/main/3DDFA_V2_cropping).
+### Using Command Line to 
+
+```bash
+cd diffpotrait360_release/code
+
+bash inference.sh
+```
+
+
+
+### Inference with your own in-the-wild data:
+
+Make sure you get the ```dataset.json``` file and cropped image under /input_image folder.
+
+Run ```bash inference.sh```
 
 
 ## 🔗 BibTeX
