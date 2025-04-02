@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/eff137b0-359c-4e93-8e69-39ac62792a5b
 - [x] Checkpoints of Diffportrait360
 - [x] Checkpoints of Back-View Generation Module
 - [ ] Training code
-- [x] Internet collected [inference Data](https://huggingface.co/gym890/diffportrait360/tree/main) (self-collected from [Pexels](https://www.pexels.com/) and 1000 extra real image portraits) 
+- [x] Internet collected inference [Data](https://huggingface.co/gym890/diffportrait360/blob/main/inference_data.zip) (self-collected from [Pexels](https://www.pexels.com/) and 1000 extra real image portraits) 
 - [ ] Gradio Demo
 
 -----
