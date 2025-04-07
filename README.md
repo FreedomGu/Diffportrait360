@@ -100,9 +100,11 @@ We provide an `env.yml` file for setting up the environment.
 
 Run the following command on your terminal:
 ```shell
-conda env create -f env.yml
+conda env create -n diffportrait360 python=3.9
 
 conda activate diffportrait360
+
+pip install -r requirements.txt
 ```
 
 ## 🧱 Download Pretrained Models
