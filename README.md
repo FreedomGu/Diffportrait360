@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/eff137b0-359c-4e93-8e69-39ac62792a5b
 - [x] Inference code
 - [x] Checkpoints of Diffportrait360
 - [x] Checkpoints of Back-View Generation Module
-- [ ] Training code
+- [x] Training code
 - [x] Internet collected inference [Data](https://huggingface.co/gym890/diffportrait360/blob/main/inference_data.zip) (self-collected from [Pexels](https://www.pexels.com/) and 1000 extra real image portraits) 
 - [ ] Gradio Demo
 
@@ -111,6 +111,25 @@ pip install -r requirements.txt
 Download the models through this [HF link](https://huggingface.co/gym890/diffportrait360/tree/main).
 
 Change following three model paths (PANO_HEAD_MODEL, Head_Back_MODEL, Diff360_MODEL) to your own download path at ```inference.sh```.
+## Training
+
+### Train Back-Head Generation Module
+Make sure you have NVIDIA GPU with at least 48GB e.g. A6000.
+
+```bash
+cd diffportrait360_release/code
+
+bash train.sh
+```
+
+### Train Stage2 NVS Module
+
+Make sure you have NVIDIA GPU with at least 48GB e.g. A6000.
+```bash
+cd diffpotrait360_release/code
+
+bash train_multiview.sh
+```
 
 
 ## Inference
@@ -158,4 +177,3 @@ This work is supported by the Metaverse Center Grant from the MBZUAI Research Of
 
 ## IP Statement
 Please contact yuminggu@usc.edu if there has been any misuse of images, and we will promptly remove them.
-
