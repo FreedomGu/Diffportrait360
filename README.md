@@ -33,7 +33,10 @@
 
 
 https://github.com/user-attachments/assets/eff137b0-359c-4e93-8e69-39ac62792a5b
-
+## News
+- Training Code Release, have fun!
+- Inference Code Released, have fun!
+- Our Paper has been accepted by CVPR2025!
 
 ## 📑 Open-source Plan
 - [x] Project Page
